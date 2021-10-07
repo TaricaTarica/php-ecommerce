@@ -1,0 +1,28 @@
+.search-form{
+    display: none;
+}
+#search:focus{
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+@media(min-width: 768px){
+    .search-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-btn{
+        background: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .search-btn i{
+        font-size: 2.3rem !important;
+    }
+    .search-btn:focus {
+        outline: none;
+        background-color: transparent;
+    }
+}
