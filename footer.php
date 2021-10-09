@@ -22,7 +22,7 @@
             </div>
           </div>
         </footer>
-    <script type="text/javascript" src="assets/scripts.js"></script>
+    <script type="text/javascript" src="/ecommerce/assets/scripts.js"></script>
     </body>
 </html>
 

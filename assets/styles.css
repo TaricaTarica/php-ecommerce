@@ -1,3 +1,22 @@
+
+ .input-field input[type=email]:focus + label,
+ .input-field input[type=text]:focus + label,
+ .input-field input[type=password]:focus + label,
+ .input-field input[type=number]:focus + label {
+    color: #7986cb !important;
+}
+
+.input-field input[type=email]:focus,
+.input-field input[type=text]:focus,
+.input-field input[type=password]:focus,
+.input-field input[type=number]:focus {
+border-bottom: 1px solid #7986cb !important;
+box-shadow: 0 1px 0 0 #7986cb !important;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #7986cb !important;
+}
+
 .search-form{
     display: none;
 }
@@ -29,6 +48,20 @@
 .mt-2{
     margin-top: 2rem;
 }
+.mb-2{
+    margin-bottom: 2rem;
+}
 .cart-product-quantity{
     max-width: fit-content;
 }
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-center .w-50{
+    width: 50%;
+}
+.n-pl{
+    padding-left: 0px !important;
+}
+
