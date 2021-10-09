@@ -12,7 +12,7 @@
         </form>
     </div>
     <ul class="right">
-        <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
+        <li><a href="/ecommerce/cart.php"><i class="material-icons">shopping_cart</i></a></li>
         <li><a class="dropdown-trigger" href="#!" data-target="nav-account-dropdown"><i class="material-icons">person</i></a></li>
       </ul>
   </div>

@@ -9,7 +9,8 @@
                 <h5 class="white-text">Navegación</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="/ecommerce/index.php">Home</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Carrito</a></li>
+                  <li><a class="grey-text text-lighten-3" href="/ecommerce/cart.php">Carrito</a></li>
+                  <li><a class="grey-text text-lighten-3" href="·p">Cuenta</a></li>
                 </ul>
               </div>
             </div>

@@ -26,3 +26,9 @@
         background-color: transparent;
     }
 }
+.mt-2{
+    margin-top: 2rem;
+}
+.cart-product-quantity{
+    max-width: fit-content;
+}
