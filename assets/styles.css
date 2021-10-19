@@ -56,12 +56,20 @@ box-shadow: 0 1px 0 0 #7986cb !important;
 }
 .flex-center{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .flex-center .w-50{
     width: 50%;
 }
 .n-pl{
     padding-left: 0px !important;
+}
+.error-text{
+    padding: 1rem;
+    background-color: #ffcdd2;
+    color: #f44336;
+    width: 50%;
 }
 
