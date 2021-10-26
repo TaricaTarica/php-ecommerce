@@ -10,4 +10,5 @@
     <link rel="stylesheet" href="/ecommerce/assets/styles.css">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
+<?php session_start(); ?>
 <body>

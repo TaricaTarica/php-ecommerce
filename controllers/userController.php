@@ -1,4 +1,3 @@
-<script>console.log("entro login");</script>
 <?php 
 require("/xampp/htdocs/ecommerce/config/dbConnection.php");
 
