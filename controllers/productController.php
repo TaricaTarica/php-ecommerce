@@ -1,5 +1,5 @@
 <?php 
-require("/xampp/htdocs/ecommerce/config/dbConnection.php");
+//require("/xampp/htdocs/ecommerce/config/dbConnection.php");
 
 function getProductName($idProduct){
     $connectionLink = dbConnection();

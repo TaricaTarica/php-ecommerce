@@ -13,7 +13,6 @@
         <?php
             if(isset($_POST['user-login-btn'])) 
             { 
-                require("../controllers/userController.php");
                 $email = $_POST['user-login-email'];
                 $password = $_POST['user-login-password'];
                 login($email, $password);
