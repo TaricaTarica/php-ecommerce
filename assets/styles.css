@@ -12,6 +12,10 @@ textarea.materialize-textarea + label{
     color: #9e9e9e !important;
 }
 
+.index-container{
+    min-height: 49vh;
+}
+
 .input-field input[type=email]:focus,
 .input-field input[type=text]:focus,
 .input-field input[type=password]:focus,
