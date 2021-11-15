@@ -2,10 +2,10 @@
     include "../head.php"; 
     include "../navbar.php";
 
-    if($_SESSION){
-        header("Location: /ecommerce/index.php");
-        die();
-    }
+    //if($_SESSION){
+    //    header("Location: /ecommerce/index.php");
+    //    die();
+    //}
 ?>
 <div class="container">
     <h2 class="indigo-text center-align">Iniciar sesión</h2>
@@ -13,6 +13,7 @@
         <?php
             if(isset($_POST['user-login-btn'])) 
             { 
+                require("../controllers/userController.php");
                 $email = $_POST['user-login-email'];
                 $password = $_POST['user-login-password'];
                 login($email, $password);
@@ -32,7 +33,7 @@
                 </div>
             </div>
             <div class="row">
-                <span class="helper-text">¿Aún no tienes cuenta? <a href="/ecommerce/user/register.php">registrate</a>.</span>
+                <span class="helper-text">¿Aún no tienes cuenta? <a href="/ecommerce/user/register.php">Regístrate</a></span>
             </div>
             <button id="user-login-btn" name="user-login-btn" type="submit" class="waves-effect waves-light btn indigo">Iniciar sesión</button>
         </form>

@@ -41,7 +41,11 @@
                 </div>
                 <div class="col s6 m6 l6">
                     <h5>$ <?php echo $productPrice; ?></h5>
-                    <button id="product-add-to-cart-btn" name="product-add-to-cart-btn" type="submit" class="waves-effect waves-light btn indigo">Agregar al carrito</button>
+                    <form action="add_to_cart.php" method="post">
+                        <input type="hidden" name="id" value="<?php echo $product_id ?>">
+                        <br>
+                        <button id="product-add-to-cart-btn" name="product-add-to-cart-btn" type="submit" class="waves-effect waves-light btn indigo">Agregar al carrito</button>
+                    </form>
                 </div>
             </div>
             <div class="row">
