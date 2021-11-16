@@ -29,7 +29,7 @@
 				<div class="card-action center">
 					<form action="add_to_cart.php" method="post">
 						<input type="hidden" name="id" value="<?php echo $product ?>">
-						<button class="btn btn-success">Agregar al carrito</button>
+						<button class="waves-effect waves-light btn indigo">Agregar al carrito</button>
 					</form>
 				</div>
 			</div>

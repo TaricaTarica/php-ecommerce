@@ -9,8 +9,8 @@
     
 <h2 class="indigo-text center-align">Stock de Mercaderia</h2>
 
-<div>
-    <table class="center" style="width:50%" >
+<div class="container" style="margin-bottom: 2rem;">
+    <table>
         <thead>
             <tr>
                 <th>Producto</th>
@@ -20,7 +20,7 @@
         <tbody>
         <?php 
             foreach($products as &$product){                    
-        ?><br>
+        ?>
                 <tr>
                 <td><?php echo getProductName($product) ?></td>
                 <td><?php echo getProductStock($product) ?></td>
@@ -28,17 +28,6 @@
             <?php }?>
         </tbody>
     </table>
-</div>
-
-
-<div class="flex-center input-field col s12 ">
-    <select>
-      <option value="" disabled selected>Choose your option</option>
-      <option value="1">Option 1</option>
-      <option value="2">Option 2</option>
-      <option value="3">Option 3</option>
-    </select>
-    <label>Materialize Select</label>
 </div>
 
 <?php include "../footer.php"; ?>

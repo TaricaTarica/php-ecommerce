@@ -43,7 +43,6 @@
             <?php 
                 foreach($buysId as &$buyId){                    
             ?>
-            <br>
             <tr>
                 <td><?php echo getBuyDate($buyId) ?></td>
                 <td>
@@ -56,7 +55,6 @@
                             echo getProductBuyName($product);
                             
                             ?>
-                            <br>
                             <?php
                         }
                     ?>
