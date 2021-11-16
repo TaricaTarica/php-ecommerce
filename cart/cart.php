@@ -23,7 +23,7 @@
             <tbody>
             <?php 
                 foreach($products as &$product){                    
-            ?><br>
+            ?>
                 <tr>
                     <td><?php echo getProductName($product) ?></td>
                     <td>$<?php echo number_format(getProductPrice($product), 2) ?></td>
@@ -33,7 +33,6 @@
                         $subTotal = getProductPrice($product) * getQuantityProduct($product);
                     ?>
                     <td>$<?php echo number_format($subTotal) ?></td>
-                    <br>
                     <?php $precioTotal = $precioTotal+$subTotal;?>
                     <td>
                         <div>
